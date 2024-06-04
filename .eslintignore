@@ -1,0 +1,4 @@
+#Build folder (Change to the same value as outDir inside tsconfig)
+/dist
+
+
