@@ -8,13 +8,14 @@ module.exports = {
   parserOptions: {
     ecmaVersion: 'latest',
     sourceType: 'module',
-    project: ['./tsconfig.json'],
+    project: ['./package.json'],
   },
   plugins: ['react', 'prettier'],
   rules: {
     'prettier/prettier': 'error',
     quotes: ['error', 'single'],
     semi: ['error', 'always'],
+    'react/prop-types': 'off',
   },
   ignorePatterns: ['!.prettierrc.cjs', '!.prettierrc.js'],
 };

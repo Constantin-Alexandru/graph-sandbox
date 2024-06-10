@@ -1,0 +1,8 @@
+.canvas {
+  background-color: var(--white);
+  margin-left: 5%;
+  width: 90%;
+  height: 90vh;
+  border: 2px solid var(--text);
+  overflow: hidden;
+}

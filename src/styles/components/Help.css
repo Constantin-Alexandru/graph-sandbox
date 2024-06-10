@@ -1,0 +1,37 @@
+.help-menu {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  width: 90%;
+  min-height: 90%;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding-inline: 5%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  z-index: 1;
+  color: var(--white);
+  border-radius: 25px;
+}
+
+.help-menu > .close {
+  position: absolute;
+  right: 5%;
+  top: 10px;
+  font-size: 1.2em;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.help-menu > .title {
+  margin-bottom: 30px;
+}
+
+.help-menu > .menu-title {
+  margin-top: 10px;
+}
+
+.help-menu > .operations {
+  display: flex;
+  flex-flow: column;
+  gap: 5px;
+}

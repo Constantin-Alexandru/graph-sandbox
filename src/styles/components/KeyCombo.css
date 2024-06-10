@@ -1,0 +1,9 @@
+.image {
+  height: 50px;
+  object-fit: contain;
+}
+
+.images-container {
+  display: flex;
+  gap: 10px;
+}

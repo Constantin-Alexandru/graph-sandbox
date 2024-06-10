@@ -1,0 +1,20 @@
+.list-item {
+  display: grid;
+  grid-template-columns: 2fr 8fr;
+}
+
+.list-item > .images-container {
+  grid-column: 1;
+  justify-content: right;
+}
+
+.list-item > .text-container {
+  display: flex;
+  flex-flow: column;
+  margin-left: 50px;
+  grid-column: 2;
+}
+
+.list-item > .text-container > .list-item-title {
+  font-weight: bold;
+}

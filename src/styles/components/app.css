@@ -1,1 +1,28 @@
+.title-bar {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  grid-template-rows: 1fr;
+  align-items: center;
+  width: 90%;
+  margin-left: 5%;
+}
 
+.title {
+  margin-top: 0;
+  grid-column: 2;
+  text-align: center;
+}
+
+.help {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1.5px solid var(--text);
+  grid-column: 3;
+  justify-self: right;
+  margin-right: 10px;
+  cursor: pointer;
+}
