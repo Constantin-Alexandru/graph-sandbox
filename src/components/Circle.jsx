@@ -10,8 +10,8 @@ export default function Circle(params) {
     <div
       className="node"
       style={{
-        top: `calc(${y}px)`,
-        left: `calc(${x}px)`,
+        top: `${y}px`,
+        left: `${x}px`,
         transform: 'translate(-50%, -50%)',
       }}
     >
