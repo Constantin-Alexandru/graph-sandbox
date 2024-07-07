@@ -1,11 +1,17 @@
 .node {
   position: absolute;
+  background-color: var(--white);
   width: 50px;
   aspect-ratio: 1/1;
   border: 1px solid var(--text);
   text-align: center;
   align-items: center;
   border-radius: 50%;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  z-index: 1;
 }
 
 .node > span {
